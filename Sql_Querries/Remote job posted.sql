@@ -1,3 +1,11 @@
+
+What it does:
+
+Joins job postings with their reqiured skills.
+Filters for job that are remote(job_work_from_home = 'Yes') and have the exact title Data Analyst.
+Counts the number of times each skill is mentioned in the job postings.
+Filters for the top 5 skills that are in demand for remote Data Analyst roles.( e.g Python, SQL, Excel).
+
 SELECT 
     sd.skills,
     sd.type AS skill_type,
@@ -19,15 +27,3 @@ ORDER BY
   demand_count DESC
 LIMIT 5;
 
-
-
-SELECT
-  job_title,
-  job_country,
-  CEILING(AVG(salary_year_avg)) AS Average_Salary_Year
-FROM 
-  job_postings_fact
-WHERE salary_year_avg IS NOT NULL
-GROUP BY job_title, job_country
-ORDER BY AVG(salary_year_avg) DESC
-LIMIT 10; 
