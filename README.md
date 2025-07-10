@@ -11,15 +11,14 @@ The rapid evolution of the industry has made it essential for job seekers, emplo
 3. Do jobs that do not mention a degree requirement offer different average salaries compared to those that do?
 
 ## Tools Used⚒️🔧 
-      -**SQL (Postregsql):** Data querying and analysis
-      -**Power BI:** Interactive dashboards and visualizations
-      -**VS Code:** Code editing and documentation
-      -**Git & GitHub:** Version control and collaboration
-
+- **SQL (Postregsql):** Data querying and analysis
+- **Power BI:** Interactive dashboards and visualizations
+- **VS Code:** Code editing and documentation
+- **Git & GitHub:** Version control and collaboration
 
 ## The Analysis 📊
-1. [In-demand Skills for Remote Data Analyst Roles](#in-demand-skills-for-remote-data-analyst-roles)
-2. [Average Yearly Salary By Role And Country](#average-yearly-salary-by-role-and-country)
+1. [In-demand Skills for Remote Data Analyst Roles](#1-in-demand-skills-for-remote-data-analyst-roles-)
+2. [Average Yearly Salary By Role And Country](#2-average-yearly-salary-by-role-and-country-)
 3. [Top Romote Employers by Year](#top-remote-employers-by-year)
 4. [Degree Requirement for Remote Data Analysts](#-degree-requirement-for-remote-data-analysts)
 
@@ -64,18 +63,18 @@ GROUP BY
 ORDER BY 
     demand_count DESC;
 LIMIT 5;
-
-
-      |  Skills   |  Skills Type  |  Demand Count  |
-      |-----------|---------------|----------------|
-      |  Sql      |  Programming  |  7291          |
-      |  Excel    |  Analyst Tool |  4611          |
-      |  Python   |  Programming  |  4330          |
-      |  Tableau  |  Analyst Tool |  3745          |
-      |  Power BI |  Analyst Tool |  2609          |
-
-      *Table of the demand for the top 5 skills in remote Data Analyst in job postings.*
 ```
+
+|  Skills   |  Skills Type  |  Demand Count  |
+|-----------|---------------|----------------|
+|  Sql      |  Programming  |  7291          |
+|  Excel    |  Analyst Tool |  4611          |
+|  Python   |  Programming  |  4330          |
+|  Tableau  |  Analyst Tool |  3745          |
+|  Power BI |  Analyst Tool |  2609          |
+
+*Table of the demand for the top 5 skills in remote Data Analyst in job postings.*
+
 
 ## 2. Average Yearly Salary by Role and Country 💶🌍 
 

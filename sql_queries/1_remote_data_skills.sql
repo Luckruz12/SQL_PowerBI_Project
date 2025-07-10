@@ -1,10 +1,11 @@
 
+/*
 What it does:
-
-Joins job postings with their reqiured skills.
-Filters for job that are remote(job_work_from_home = 'Yes') and have the exact title Data Analyst.
-Counts the number of times each skill is mentioned in the job postings.
-Filters for the top 5 skills that are in demand for remote Data Analyst roles.( e.g Python, SQL, Excel).
+  - Joins job postings with their reqiured skills.
+  - Filters for job that are remote(job_work_from_home = 'Yes') and have the exact title Data Analyst.
+  - Counts the number of times each skill is mentioned in the job postings.
+  - Filters for the top 5 skills that are in demand for remote Data Analyst roles.( e.g Python, SQL, Excel).
+*/
 
 SELECT 
     sd.skills,
