@@ -1,7 +1,7 @@
 # Job Market Analysis
 📊 This project explores the data job market trends, focusing on 🔥in-demand skills,💰 salary benchmarks, 📈 remote work trends, and 🎓 degree requirements for data analysis roles.
 
-🔍SQL queries? Check them out here: [SQL_POWERBI_PROJECT](#SQL_POWERBI_PROJECT)
+🔍SQL queries? Check them out here: [SQL_POWERBI_PROJECT](/sql_queries/)
 
 ## Project Motivation/Backgroud
 The rapid evolution of the industry has made it essential for job seekers, employers, and educators to stay updated on current market trends. This project was inspired by the need to understand which skills, qualifications, and roles are mostly valued inthe remote data analysis job market, and to provide actionable insights for career and curriculum development. 
