@@ -109,3 +109,112 @@ WHERE salary_year_avg IS NOT NULL
 GROUP BY job_title, job_country
 ORDER BY AVG(salary_year_avg) DESC
 LIMIT 10;
+```
+
+## [<small>back to top</small>](#the-analysis-)
+
+## 3. Top Remote Employers by Year 🌏
+
+**What it does:**
+- Joins job postings with company information.
+- Filters for jobs that are remote (`job_work_from_home = TRUE`).
+- Groups results by company name and the year the job was posted.
+- Counts the number of remote jobs posted by each company per year.
+- Order the results to show companies with the most remote jobs at the top.
+
+**Insights:**
+- See which companies are leading in offering remote jobs opportunities.
+- Track how remote job postings by company change over time.
+
+**Use Cases:**
+   **Job Seekers:** Identify companies with the most remote work cultures to target in your job search.
+   **Employers:** Benchmaerk your remote  hiring activities against competitors.
+   **Educators/Trainers:** Analyze the growth  and distribution of remote work opportunities by company and year.
+
+   **Noted:**
+   - The query only considers jobs explicitly marked as remote (`job_work_from_home = TRUE`).
+   - Companies with hydrid or flexible work arrangements not mark as remote may be underrepresented.
+
+   **SQL query:**
+```sql
+
+SELECT
+ cd.name AS Company_Name,
+ COUNT(jpf.company_id) AS remote_job_count,
+ EXTRACT(year FROM job_posted_date) AS job_year
+FROM 
+  job_postings_fact jpf
+  LEFT JOIN company_dim cd ON jpf.company_id = cd.company_id
+  WHERE job_work_from_home = 'yes'
+GROUP BY
+    Company_Name, job_posted_date
+ORDER BY
+    remote_job_count DESC;
+```
+
+## [<small>back to top</small>](#the-analysis-)
+
+## 4. Degree Requirement for Remote Data Analysts 🎓💶 
+
+**What it does:**
+- Goups job postings based on whether a degree is mentioned as a requirement (`job_no_degree_mention`).
+- Calculates the average yearly salary for each group, considering only postings with a non-null yearly salary.
+- Counts the number of job postings in each group.
+
+**Insights**
+
+- See if jobs that do not require a degreee tend to offer higher or lower average salaries.
+- Understand how common it is for jobs to omit degree requirements and how that relates to compensation.
+
+**Use Cases:**
+- **Job Seekers:** Assess whether pursuing roles that to not reqiure a degree impacts potential earnings.
+- **Employers:** Benchmark your job requirement and salary offerings against market trends.
+- **Educators/Trainers:** advice students on the value of a degree in relation to salary expectations.
+
+**Noted:**
+- The analysis only includes jobs with a specified yearly salary (`salary_year_avg IS NOT NULL`).
+
+**SQL query:**
+
+```sql
+
+SELECT
+  job_no_degree_mention AS no_degree_mention,
+  ROUND(AVG(salary_year_avg)) AS salary_avg,
+  COUNT(*) AS job_count
+ FROM 
+  job_postings_fact
+WHERE
+  salary_year_avg IS NOT NULL
+GROUP BY
+  no_degree_mention;
+  ```
+
+  ## [<small>back to top</small>](#the-analysis-)
+
+  ## What I Learnt 📚✨ 
+
+  - **Skill Demand Patterns:**
+  Gained insights into which technical skills are most valued for remote Data Analyst roles, helping to understand current industry expectations.
+
+  - **Salary Benchmarks:**
+  Learned how compensation varies by job title and country, and identified regions and roles with the highest earning potential.
+
+  - **Remote Work Trends:**
+  Discovered which companies are leading in remote hiring and how opportunities have evolved over time.
+
+  - **Degree Requirements Impact:**
+  Understand the relationship between degree requirements and salary, and how omitting degree reqiurements can affect job availibility and compensation.
+
+  -**Data Analysis & Visualization:**
+  Enhanced my ability to use SQL for complex data analysis and power BI for creating interactive, insighful dashboards.
+
+  -**Practical Application:**
+  Developed actionable recommendations for job seekers, employers, and educators based on real-world data.
+
+  ## Conclution 🏁 
+
+  THis project provide a comprehensive analysis of the data job market, revealing key treands in skill demand, salary benchmarks, remote work opportunities, and the impact of degree reqiurements. BY leveraging SQL for data extraction and Power BI for visualization, I was able to generate actionable insights for job seekers, employers, and educators. These findings can guide career development, hiring strategies, and curriculum design, ensuring aligment with current industry needs and future workforce.
+
+## Contact / Feedback ✉️
+If you have any questions or feedback, feel free to reach out to me at [https://github.com/Luckruz12](#https://github.com/Luckruz12) or [https://www.linkedin.com/in/luckruz12/](#https://www.linkedin.com/in/luckruz12/) you can also email me at **lijemhen@gmail.com.**
