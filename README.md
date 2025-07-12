@@ -1,7 +1,7 @@
 # Job Market Analysis
 📊 This project explores the data job market trends, focusing on 🔥in-demand skills,💰 salary benchmarks, 📈 remote work trends, and 🎓 degree requirements for data analysis roles.
 
-🔍SQL queries? Check them out here:[SQL_POWERBI_PROJECT](#SQL_POWERBI_PROJECT)
+🔍SQL queries? Check them out here: [SQL_POWERBI_PROJECT](#SQL_POWERBI_PROJECT)
 
 ## Project Motivation/Backgroud
 The rapid evolution of the industry has made it essential for job seekers, employers, and educators to stay updated on current market trends. This project was inspired by the need to understand which skills, qualifications, and roles are mostly valued inthe remote data analysis job market, and to provide actionable insights for career and curriculum development. 
@@ -36,8 +36,8 @@ The rapid evolution of the industry has made it essential for job seekers, emplo
  - Spolt trends in remote work and the skills associated witn these opportunities.
 
  **Use Cases**
- -**Job Seekers:** Focus on acquiring or highlighting the top_listed skills in your resume and interviews for renmote Data Analyst roles.
- -**Employers:** Highlight the top skills in the job descriptions and job requirements to attract candidates with the necessary skills.
+ - **Job Seekers:** Focus on acquiring or highlighting the top_listed skills in your resume and interviews for renmote Data Analyst roles.
+ - **Employers:** Highlight the top skills in the job descriptions and job requirements to attract candidates with the necessary skills.
 - **Educators:** Use the insights to develop curricula and teaching materials that emphasize the most in-demand skills for remote Data Analyst roles.
 - **Data Analysts:** Use the insights to prioritize learning and development efforts in the skills that are most in demand for remote Data Analyst roles.
 
@@ -89,14 +89,14 @@ LIMIT 5;
 - Indentify geographic or roles-based trends in the average yearly salary.
 
 **Use Cases:**
-   **Job Seekers:** Target the roles and locations with higher average yearly salaries.
-   **Employers:** Bernchmark your yearly salary offerings against market averages.
-   **Educators/Trainers:** Advice students on lucrative carrer paths and locations.
+- **Job Seekers:** Target the roles and locations with higher average yearly salaries.
+- **Employers:** Bernchmark your yearly salary offerings against market averages.
+- **Educators/Trainers:** Advice students on lucrative carrer paths and locations.
 
-   **Noted:**
-   - The query only considers postings with a specified yearly salary. (`salary_year_avg IS NOT NULL`).
+**Noted:**
+- The query only considers postings with a specified yearly salary. (`salary_year_avg IS NOT NULL`).
 
-   **SQL query:**
+**SQL query:**
 ```sql
 
 SELECT
@@ -127,15 +127,15 @@ LIMIT 10;
 - Track how remote job postings by company change over time.
 
 **Use Cases:**
-   **Job Seekers:** Identify companies with the most remote work cultures to target in your job search.
-   **Employers:** Benchmaerk your remote  hiring activities against competitors.
-   **Educators/Trainers:** Analyze the growth  and distribution of remote work opportunities by company and year.
+- **Job Seekers:** Identify companies with the most remote work cultures to target in your job search.
+- **Employers:** Benchmaerk your remote  hiring activities against competitors.
+- **Educators/Trainers:** Analyze the growth  and distribution of remote work opportunities by company and year.
 
-   **Noted:**
-   - The query only considers jobs explicitly marked as remote (`job_work_from_home = TRUE`).
-   - Companies with hydrid or flexible work arrangements not mark as remote may be underrepresented.
+**Noted:**
+- The query only considers jobs explicitly marked as remote (`job_work_from_home = TRUE`).
+- Companies with hydrid or flexible work arrangements not mark as remote may be underrepresented.
 
-   **SQL query:**
+**SQL query:**
 ```sql
 
 SELECT
@@ -190,31 +190,31 @@ GROUP BY
   no_degree_mention;
   ```
 
-  ## [<small>back to top</small>](#the-analysis-)
+## [<small>back to top</small>](#the-analysis-)
 
-  ## What I Learnt 📚✨ 
+## What I Learnt 📚✨ 
 
-  - **Skill Demand Patterns:**
-  Gained insights into which technical skills are most valued for remote Data Analyst roles, helping to understand current industry expectations.
+- **Skill Demand Patterns:**
+Gained insights into which technical skills are most valued for remote Data Analyst roles, helping to understand current industry expectations.
 
-  - **Salary Benchmarks:**
-  Learned how compensation varies by job title and country, and identified regions and roles with the highest earning potential.
+- **Salary Benchmarks:**
+Learned how compensation varies by job title and country, and identified regions and roles with the highest earning potential.
 
-  - **Remote Work Trends:**
-  Discovered which companies are leading in remote hiring and how opportunities have evolved over time.
+- **Remote Work Trends:**
+Discovered which companies are leading in remote hiring and how opportunities have evolved over time.
 
-  - **Degree Requirements Impact:**
-  Understand the relationship between degree requirements and salary, and how omitting degree reqiurements can affect job availibility and compensation.
+- **Degree Requirements Impact:**
+Understand the relationship between degree requirements and salary, and how omitting degree reqiurements can affect job availibility and compensation.
 
-  -**Data Analysis & Visualization:**
-  Enhanced my ability to use SQL for complex data analysis and power BI for creating interactive, insighful dashboards.
+- **Data Analysis & Visualization:**
+Enhanced my ability to use SQL for complex data analysis and power BI for creating interactive, insighful dashboards.
 
-  -**Practical Application:**
-  Developed actionable recommendations for job seekers, employers, and educators based on real-world data.
+- **Practical Application:**
+Developed actionable recommendations for job seekers, employers, and educators based on real-world data.
 
-  ## Conclution 🏁 
+## Conclution 🏁 
 
-  THis project provide a comprehensive analysis of the data job market, revealing key treands in skill demand, salary benchmarks, remote work opportunities, and the impact of degree reqiurements. BY leveraging SQL for data extraction and Power BI for visualization, I was able to generate actionable insights for job seekers, employers, and educators. These findings can guide career development, hiring strategies, and curriculum design, ensuring aligment with current industry needs and future workforce.
+THis project provide a comprehensive analysis of the data job market, revealing key treands in skill demand, salary benchmarks, remote work opportunities, and the impact of degree reqiurements. BY leveraging SQL for data extraction and Power BI for visualization, I was able to generate actionable insights for job seekers, employers, and educators. These findings can guide career development, hiring strategies, and curriculum design, ensuring aligment with current industry needs and future workforce.
 
 ## Contact / Feedback ✉️
 If you have any questions or feedback, feel free to reach out to me at [https://github.com/Luckruz12](#https://github.com/Luckruz12) or [https://www.linkedin.com/in/luckruz12/](#https://www.linkedin.com/in/luckruz12/) you can also email me at **lijemhen@gmail.com.**
