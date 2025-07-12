@@ -19,8 +19,8 @@ The rapid evolution of the industry has made it essential for job seekers, emplo
 ## The Analysis 📊
 1. [In-demand Skills for Remote Data Analyst Roles](#1-in-demand-skills-for-remote-data-analyst-roles-)
 2. [Average Yearly Salary By Role And Country](#2-average-yearly-salary-by-role-and-country-)
-3. [Top Romote Employers by Year](#top-remote-employers-by-year)
-4. [Degree Requirement for Remote Data Analysts](#-degree-requirement-for-remote-data-analysts)
+3. [Top Romote Employers by Year](#3-top-remote-employers-by-year-)
+4. [Degree Requirement for Remote Data Analysts](#4-degree-requirement-for-remote-data-analysts-)
 
 ## 1. In-demand Skills for Remote Data Analyst Roles 🚀 
 
@@ -74,6 +74,8 @@ LIMIT 5;
 |  Power BI |  Analyst Tool |  2609          |
 
 *Table of the demand for the top 5 skills in remote Data Analyst in job postings.*
+
+## [<small>back to top</small>](#the-analysis-)
 
 
 ## 2. Average Yearly Salary by Role and Country 💶🌍 
