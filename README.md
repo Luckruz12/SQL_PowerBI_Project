@@ -75,7 +75,7 @@ LIMIT 5;
 
 *Table of the demand for the top 5 skills in remote Data Analyst in job postings.*
 
-![Analysis1](/SQL_PowerBI_Project/PowerBI_Dashboard/Analysis1.png)
+![Analysis1](PowerBI_Dashboard/Analysis1.png)
 
 ## [<small>back to top</small>](#the-analysis-)
 
