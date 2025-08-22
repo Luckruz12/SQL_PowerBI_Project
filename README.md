@@ -75,6 +75,8 @@ LIMIT 5;
 
 *Table of the demand for the top 5 skills in remote Data Analyst in job postings.*
 
+![Analysis1](/SQL_PowerBI_Project/PowerBI_Dashboard/Analysis1.png)
+
 ## [<small>back to top</small>](#the-analysis-)
 
 
@@ -112,6 +114,8 @@ GROUP BY job_title, job_country
 ORDER BY AVG(salary_year_avg) DESC
 LIMIT 10;
 ```
+
+![Analysis2](/SQL_PowerBI_Project/PowerBI_Dashboard/Analysis2.png)
 
 ## [<small>back to top</small>](#the-analysis-)
 
@@ -154,6 +158,8 @@ ORDER BY
     remote_job_count DESC;
 ```
 
+![Analysis3](/SQL_PowerBI_Project/PowerBI_Dashboard/Analysis3.png)
+
 ## [<small>back to top</small>](#the-analysis-)
 
 ## 4. Degree Requirement for Remote Data Analysts 🎓💶 
@@ -191,6 +197,8 @@ WHERE
 GROUP BY
   no_degree_mention;
   ```
+
+  ![Analysis4](/SQL_PowerBI_Project/PowerBI_Dashboard/Analysis4.png)
 
 ## [<small>back to top</small>](#the-analysis-)
 
