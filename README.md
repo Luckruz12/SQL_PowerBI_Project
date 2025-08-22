@@ -115,7 +115,7 @@ ORDER BY AVG(salary_year_avg) DESC
 LIMIT 10;
 ```
 
-![Analysis2](/SQL_PowerBI_Project/PowerBI_Dashboard/Analysis2.png)
+![Analysis2](PowerBI_Dashboard/Analysis2.png)
 
 ## [<small>back to top</small>](#the-analysis-)
 
@@ -158,7 +158,7 @@ ORDER BY
     remote_job_count DESC;
 ```
 
-![Analysis3](\SQL_PowerBI_Project\PowerBI_Dashboard\Analysis3.png)
+![Analysis3](PowerBI_Dashboard\Analysis3.png)
 
 ## [<small>back to top</small>](#the-analysis-)
 
@@ -198,7 +198,7 @@ GROUP BY
   no_degree_mention;
   ```
 
-  ![Analysis4](\SQL_PowerBI_Project\PowerBI_Dashboard\Analysis4.png)
+  ![Analysis4](PowerBI_Dashboard\Analysis4.png)
 
 ## [<small>back to top</small>](#the-analysis-)
 
