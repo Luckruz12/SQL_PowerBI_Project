@@ -158,7 +158,7 @@ ORDER BY
     remote_job_count DESC;
 ```
 
-![Analysis3](/SQL_PowerBI_Project/PowerBI_Dashboard/Analysis3.png)
+![Analysis3](\SQL_PowerBI_Project\PowerBI_Dashboard\Analysis3.png)
 
 ## [<small>back to top</small>](#the-analysis-)
 
@@ -198,7 +198,7 @@ GROUP BY
   no_degree_mention;
   ```
 
-  ![Analysis4](/SQL_PowerBI_Project/PowerBI_Dashboard/Analysis4.png)
+  ![Analysis4](\SQL_PowerBI_Project\PowerBI_Dashboard\Analysis4.png)
 
 ## [<small>back to top</small>](#the-analysis-)
 
